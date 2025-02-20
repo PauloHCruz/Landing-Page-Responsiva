@@ -1,0 +1,40 @@
+*{
+padding:0;
+margin:0;
+text-decoration:none;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+.home {
+    position: relative;
+    min-height: 100vh;
+    background-color: #000;
+}
+
+header {
+position: fixed;
+top:0;
+left:0;
+width:100%;
+z-index: 99;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 90px;
+font-size: 22px;
+color: white;
+}
+
+header nav a{
+    font-size: 26px;
+    margin-left: 78px;
+    color: white;
+}
+
+header nav .active,
+header nav a:hover{
+    color: grey;
+}
+
+
