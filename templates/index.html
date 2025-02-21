@@ -5,21 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Landing Page Responsiva</title>
     <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <h1>Logo</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
-        </nav>
-    </header>
+		<nav>
+      <h1>Logo</h1>
+			<div>
+                <ul id="top-menu">
+					<li class="menu-item"><a href="#">Home</a></li>
+                    <li class="menu-item"><a href="#">Sobre</a></li>
+                    <li class="menu-item"><a href="#">Benefícios</a></li>
+                    <li class="menu-item"><a href="#">Contato</a></li>
+                </ul>
+		</nav>
+		<div id="header-desc">
+			<h1>Landing Page Responsiva Café</h1>
+			<p>Café é uma das bebidas mais apreciadas em todo o planeta e é produzido dos grãos de café, a semente do fruto do cafeeiro. O cafeeiro é uma espécie originária da Etiópia que se difundiu por todo o mundo. Existem diferentes espécies de café, as quais fazem parte da família botânica Rubiaceae e do gênero Coffea.</p>
+		</div>
+	</header>
 
-    <section class="home">
+    <main>
+        <section id="beneficios">
+            <div style="background-color: #765038;" class="benefit">
+                <div class="icon">
+                    <i class="fa fa-brain"></i>
+                </div>
+                <div class="content">
+                    <h3>Melhora o Desempenho Cognitivo</h3>
+                    <p>A cafeína estimula o sistema nervoso central, melhorando a concentração, a memória e a disposição mental, ajudando no foco e produtividade.</p>
+                </div>
+            </div>
+            <div style="background-color: #765038;" class="benefit">
+                <div class="icon">
+                    <i class="fa fa-heartbeat"></i>
+                </div>
+                <div class="content">
+                    <h3>Protege o Coração</h3>
+                    <p>O consumo moderado de café está associado à redução do risco de doenças cardiovasculares, pois contém antioxidantes que ajudam na saúde do coração.</p>
+                </div>
+            </div>
+            <div style="background-color: #765038;" class="benefit">
+                <div class="icon">
+                    <i class="fa fa-dumbbell"></i>
+                </div>
+                <div class="content">
+                    <h3>Aumenta a Energia e o Desempenho Físico</h3>
+                    <p>A cafeína estimula a liberação de adrenalina, o que pode melhorar o desempenho em atividades físicas, reduzindo a fadiga e aumentando a resistência.</p>
+                </div>
+            </div>
+        </section>
 
-    </section>
+        <section id="contato">
+            <div>
+                <h2>Entre em contato</h2>
+                <div class="endereco">
+                    <h3>Endereço</h3>
+                    <p>Rua tal, numero 123</p>
 
+                </div>
+                <div class="form-contato">
+                    <h3>Envie nos uma mensagem</h3>
+                    <form>
+                        <input type="text" name="" id="">
+                        <input type="tel" name="" id="">
+                        <input type="text" name="" id="">
+                        <input type="email" name="" id="">
+                        <textarea></textarea>
+                        <button type="submit"></button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> Copyright</p>
+    </footer>
 </body>
 </html>
