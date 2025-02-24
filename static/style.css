@@ -98,40 +98,116 @@ h1 {
 }
 
 #beneficios {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: #765038;
+    padding: 75px 0;
+}
+
+.beneficio {
+    background-color: #765038;
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+    flex: 1 1 22%;
+    max-width: 22%;
+    border-radius: 10px;
     }
 
-    .benefit {
-        text-align: center;
-        padding: 80px 20px;
-        color: #fff;
-        flex: 1 1 22%;
-        max-width: 22%;
-        border-radius: 10px;
-    }
+.icon i {
+    font-size: 80px;
+    transition: all 0.2s;
+}
 
-    .icon i {
-        font-size: 80px;
-        transition: all 0.2s;
-    }
+.beneficio:hover{
+    transform: scale(1.1, 1.1);
+}
 
-    .benefit:hover .icon i {
-        transform: scale(1.1, 1.1);
-    }
+.conteudo-beneficio h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
 
-    .content h3 {
-        font-weight: 600;
-        font-size: 1.5em;
-        margin: 20px 0;
-    }
+.conteudo-beneficio p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
 
-    .content p {
-        font-size: 14px;
-        letter-spacing: 0.5px;
-        line-height: 1.6;
-    }
+#sobre {
+	width: 100%;
+    background-color: #ccc;
+	padding: 75px 0;
+    text-align: center;
+}
+
+.letra-cursiva {
+	color: #000;
+	font-size: 24px;
+	font-family: 'Caveat', cursive;
+	margin: 0;
+	margin-top: 35px;
+}
+
+#gray-desc {
+	font-size: 16px;
+	font-weight: 500;
+	color: #8b8b99;
+	letter-spacing: 0.5px;
+	margin: 50px 150px;
+}
+
+#contato {
+	padding: 50px 0;
+}
+
+#contato-wrap {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1140px;
+	margin: auto;
+}
+
+.bloco-endereco, .bloco-forms {
+	width: 48%;
+}
+
+.contato-desc {
+	font-size: 14px;
+	color: #8b8b99;
+}
+
+.contato-endereco {
+	font-size: 14px;
+	line-height: 1.6;
+	color: #8b8b99;
+}
+
+.input-item {
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#btn-submit {
+	background-color: rgb(118,80,56);
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #f1f1f1;
+}
 
 
