@@ -14,6 +14,6 @@ Este projeto é um projeto simples de uma landing page responsiva feito com um d
 
 ## Acesse o App
 
-Você pode vizualizar esse projeto [clicando aqui](#)
+Você pode vizualizar esse projeto [clicando aqui](https://paulohcruz.github.io/Landing-Page-Responsiva/)
 
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
+![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
